@@ -95,4 +95,5 @@ Data is stored on the device with SwiftData.
 
 ## Video Walkthrough
 
-<!-- Add a GIF of the app here -->
+![first demo](https://github.com/user-attachments/assets/6687699d-3b4c-4a33-8ead-0f26f8f0a5df)
+
