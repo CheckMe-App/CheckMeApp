@@ -26,13 +26,13 @@ enum PreviewData {
         let tasks = titles.map { TaskItem(title: $0, createdAt: weekAgo) }
         tasks.forEach { container.mainContext.insert($0) }
 
-        // Every task done for the last 3 days, which gives a 3-day streak.
+        
         for daysAgo in 1...3 {
             let day = calendar.date(byAdding: .day, value: -daysAgo, to: .now)!
             tasks.forEach { store.complete($0, on: day) }
         }
 
-        // Two tasks done so far today.
+        
         tasks.prefix(2).forEach { store.complete($0) }
 
         return container
