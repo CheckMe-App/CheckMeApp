@@ -6,11 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		B16BEEE830B3E7F300984445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1E2AEF630ABEFD400C5819E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1E2AEFD30ABEFD400C5819E;
+			remoteInfo = CheckMe;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		B16BEEE430B3E7F300984445 /* CheckMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1E2AEFE30ABEFD400C5819E /* CheckMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		B16BEEE530B3E7F300984445 /* CheckMeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CheckMeTests;
+			sourceTree = "<group>";
+		};
 		B1E2AF0030ABEFD400C5819E /* CheckMe */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = CheckMe;
@@ -19,6 +35,13 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B16BEEE130B3E7F300984445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B1E2AEFB30ABEFD400C5819E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				B1E2AF0030ABEFD400C5819E /* CheckMe */,
+				B16BEEE530B3E7F300984445 /* CheckMeTests */,
 				B1E2AEFF30ABEFD400C5819E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				B1E2AEFE30ABEFD400C5819E /* CheckMe.app */,
+				B16BEEE430B3E7F300984445 /* CheckMeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,6 +73,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B16BEEE330B3E7F300984445 /* CheckMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B16BEEEA30B3E7F300984445 /* Build configuration list for PBXNativeTarget "CheckMeTests" */;
+			buildPhases = (
+				B16BEEE030B3E7F300984445 /* Sources */,
+				B16BEEE130B3E7F300984445 /* Frameworks */,
+				B16BEEE230B3E7F300984445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B16BEEE930B3E7F300984445 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B16BEEE530B3E7F300984445 /* CheckMeTests */,
+			);
+			name = CheckMeTests;
+			packageProductDependencies = (
+			);
+			productName = CheckMeTests;
+			productReference = B16BEEE430B3E7F300984445 /* CheckMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		B1E2AEFD30ABEFD400C5819E /* CheckMe */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1E2AF0930ABEFD600C5819E /* Build configuration list for PBXNativeTarget "CheckMe" */;
@@ -80,6 +128,10 @@
 				LastSwiftUpdateCheck = 2660;
 				LastUpgradeCheck = 2660;
 				TargetAttributes = {
+					B16BEEE330B3E7F300984445 = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = B1E2AEFD30ABEFD400C5819E;
+					};
 					B1E2AEFD30ABEFD400C5819E = {
 						CreatedOnToolsVersion = 26.6;
 						LastSwiftMigration = 2660;
@@ -101,11 +153,19 @@
 			projectRoot = "";
 			targets = (
 				B1E2AEFD30ABEFD400C5819E /* CheckMe */,
+				B16BEEE330B3E7F300984445 /* CheckMeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B16BEEE230B3E7F300984445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B1E2AEFC30ABEFD400C5819E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -116,6 +176,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B16BEEE030B3E7F300984445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B1E2AEFA30ABEFD400C5819E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -125,7 +192,57 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		B16BEEE930B3E7F300984445 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1E2AEFD30ABEFD400C5819E /* CheckMe */;
+			targetProxy = B16BEEE830B3E7F300984445 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		B16BEEEB30B3E7F300984445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7V662KJMD9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saraivahmarcelin.CheckMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CheckMe";
+			};
+			name = Debug;
+		};
+		B16BEEEC30B3E7F300984445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7V662KJMD9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saraivahmarcelin.CheckMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CheckMe";
+			};
+			name = Release;
+		};
 		B1E2AF0730ABEFD600C5819E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -321,6 +438,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B16BEEEA30B3E7F300984445 /* Build configuration list for PBXNativeTarget "CheckMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16BEEEB30B3E7F300984445 /* Debug */,
+				B16BEEEC30B3E7F300984445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B1E2AEF930ABEFD400C5819E /* Build configuration list for PBXProject "CheckMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -1,8 +1,7 @@
 import SwiftUI
 import SwiftData
 
-/// Issue #4: Checklist page.
-/// Shows today's tasks with checkboxes and a progress bar.
+
 struct TodayView: View {
     @Environment(\.modelContext) private var modelContext
 
