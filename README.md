@@ -29,13 +29,13 @@ CheckMe helps users build healthy daily habits. Users create simple daily tasks,
 
 **Required**
 
-- [ ] User can create a daily task
-- [ ] User can edit and delete a task
-- [ ] User can check off a task for today
-- [ ] Tasks reset each new day
-- [ ] User can see their history of completed tasks
-- [ ] User can see their streak and stats on their profile
-- [ ] User can add photo proof when completing a task
+- [x ] User can create a daily task
+- [ x] User can edit and delete a task
+- [ x] User can check off a task for today
+- [ x] Tasks reset each new day
+- [ x] User can see their history of completed tasks
+- [ x] User can see their streak and stats on their profile
+
 
 **Optional**
 
@@ -95,6 +95,9 @@ Data is stored on the device with SwiftData.
 
 ## Video Walkthrough
 
-https://www.youtube.com/shorts/Z6sU_lLHl1o
+<img width="360" height="696" alt="CheckMe-demo" src="https://github.com/user-attachments/assets/d7a72a56-981f-490a-8b9b-3ce86ab7281d" />
+
+demo: https://www.youtube.com/watch?v=AdfFJoZRF7Y
+
 
 
